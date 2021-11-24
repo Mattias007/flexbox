@@ -146,6 +146,12 @@ color: white;
 background-color: blue;
 color: white;
 }
+.footeravaleht{
+    justify-self: center;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
 
 @media (min-width:400px){
 
