@@ -271,6 +271,7 @@ font-weight: bold;
 font-size: 20px;
 }
 .footeravaleht{
+    margin-top: 50px;
     justify-self: center;
     background-color: blue;
     color: white;
@@ -296,7 +297,13 @@ height: 50px;
 }
 
 }
-@media (max-width:960px){
+@media (max-width:1200px){
+    footer{
+        height: 700px;
+    }
+    .content-wrap{
+        padding-bottom: 700px; /* Footer height */
+    }
 
     .footerleft{
         display: none;
@@ -317,8 +324,19 @@ height: 50px;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     }
+
     @media (max-width:235px){
         footer{
+            display: none;
+        }
+
+
+    }
+    @media (max-width:1020px){
+        .headernav a{
+            display: none;
+        }
+        .headerleft img{
             display: none;
         }
 
